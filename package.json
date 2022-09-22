@@ -1,0 +1,11 @@
+{
+  "name": "permissionletter",
+  "version": "1.0.0",
+  "description": "Generate necessary letters to get permission for Durga Puja in West Bengal",
+  "keywords": [
+    "Durga", "Puja", "Permission", "Letter",
+    "Latex", "West Bengal"
+  ],
+  "author": "Dr. Rakesh Jana",
+  "license": "ISC"
+}
