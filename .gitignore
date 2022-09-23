@@ -1,0 +1,7 @@
+*.aux
+*.fbd_*
+*.fls
+*.log
+*.out
+*.syntex.gz
+*.xdv
