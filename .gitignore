@@ -1,8 +1,23 @@
+# LaTeX intermediate files
 *.aux
-*.fbd_*
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
 *.fls
+*.idx
+*.ilg
+*.ind
+*.lof
 *.log
+*.lot
 *.out
+*.run.xml
 *.synctex.gz
+*.toc
 *.xdv
-*.DS_Store
+
+# Optional: Mac/VSCode/system files
+.DS_Store
+Thumbs.db
+*.code-workspace
