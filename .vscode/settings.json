@@ -1,3 +1,36 @@
 {
-    "latex-workshop.latex.recipe.default": "lastUsed"
+  // Tell LaTeX Workshop which file is the root
+  "latex-workshop.latex.rootFile.useSubFile": false,
+  "latex-workshop.latex.rootFile.doNotPrompt": true,
+
+  // Explicitly set the main file
+  "latex-workshop.latex.rootFile": "main.tex",
+
+  // Configure XeLaTeX as the default compiler
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "xelatex",
+      "tools": ["xelatex"]
+    }
+  ],
+
+  // Define the xelatex tool
+  "latex-workshop.latex.tools": [
+    {
+      "name": "xelatex",
+      "command": "xelatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    }
+  ],
+
+  // Set PDF viewer to internal (can also be "external" if you prefer)
+  "latex-workshop.view.pdf.viewer": "tab",
+
+  // After build, open main.pdf automatically
+  "latex-workshop.latex.autoBuild.run": "onSave"
 }

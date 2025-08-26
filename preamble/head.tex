@@ -1,3 +1,4 @@
+\usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{stix}
 \usepackage{geometry}
@@ -11,10 +12,24 @@
 \usepackage[banglamainfont=Kalpurush, 
 banglattfont=Siyam Rupali
 ]{latexbangla} 
+
+% ------------------------------------------------
+% Force XeLaTeX to Use Bengali Numerals and Fonts
+% ------------------------------------------------
+\usepackage{polyglossia}
+\setmainlanguage[numerals=Bengali]{bengali}
+\setotherlanguage{english}
+
+% Ensure the Bengali fonts are applied
+\newfontfamily\bengalimainfont[Script=Bengali]{Kalpurush}
+\newfontfamily\banglattfont[Script=Bengali]{Siyam Rupali}
+% ------------------------------------------------
+
 \usepackage{enumerate}
 \usepackage{xcolor, array}
 \usepackage{tcolorbox}
 \usepackage{changepage, multicol}
 
 \usepackage{tikz}
+\usepackage{datetime2}
 \usepackage{lipsum}
