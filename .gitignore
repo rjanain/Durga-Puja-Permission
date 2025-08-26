@@ -3,5 +3,6 @@
 *.fls
 *.log
 *.out
-*.syntex.gz
+*.synctex.gz
 *.xdv
+*.DS_Store

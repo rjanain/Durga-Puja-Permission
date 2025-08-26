@@ -13,4 +13,21 @@ departments to get a permission for Durga Puja in West Bengal.
 By using these LaTeX file we can generate all those applications. 
  
 
+## Fontspec Error: "Kalpurush"/"SiyamRupali"  font cannot be found
+
+If you see the error:
+
+	! Package fontspec Error: The font "Kalpurush" cannot be found.
+
+This means the Kalpurush font / SiyamRupali font is not installed on your system. To fix:
+
+1. Download the Kalpurush font and or  Siyam Rupali font  (TTF file) from a trusted source.
+	[OmicronLab Font Download](https://www.omicronlab.com/bangla-fonts.html)
+2. On macOS, double-click the TTF file and click "Install Font".
+3. Recompile your LaTeX document.
+
+After installation, XeTeX/LuaTeX should find the font automatically.
+
+
+
 
