@@ -1,18 +1,24 @@
 \usepackage[]{background}
 
+% Define custom colors
+\definecolor{Saffron}{HTML}{FFC34D}   % warm marigold
+\definecolor{Turmeric}{HTML}{FFD873}  % lighter saffron
+\definecolor{Vermilion}{HTML}{D1430F} % rich orange-red frame
+\definecolor{MaroonDeep}{HTML}{7A1B2B}% deep festive text/accent
+\definecolor{Ivory}{HTML}{FFF8E7}     % soft neutral (optional)
+
+
 \backgroundsetup{
-	scale=0.75,
+	scale=1,
 	placement=top,
 	position=current page.north,
-	vshift=7.5cm,
-	hshift=0.1cm,
-	color=gray,
-	opacity=0.25,
+	%vshift=7.5cm,
+	%hshift=0.1cm,
+	% color=gray,
+	opacity=0.15,
 	angle=0,
 	contents={%
-		\includegraphics[
-		width=2.1\paperwidth,
-		height=1\paperheight
-		]{image/dp}
+		\includegraphics[width=\paperwidth,height=\paperheight
+		]{image/background1}
 	}%
 }
