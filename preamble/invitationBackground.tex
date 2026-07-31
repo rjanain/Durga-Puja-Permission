@@ -1,0 +1,22 @@
+% আমন্ত্রণ পত্রের জন্য পৃথক ব্যাকগ্রাউন্ড কনফিগারেশন।
+% preamble/backgroundPage.tex থেকে আলাদা রাখা হইয়াছে যাহাতে
+% এই ছবিটি কেবলমাত্র যে পাতায় \BgThispage ডাকা হইবে, শুধুমাত্র
+% সেই পাতাতেই দেখা যায় (অন্য সকল পাতায় নহে)।
+\usepackage[some]{background}
+
+\backgroundsetup{
+	scale=0.75,
+	placement=top,
+	position=current page.north,
+	vshift=7.5cm,
+	hshift=0.1cm,
+	color=gray,
+	opacity=0.25,
+	angle=0,
+	contents={%
+		\includegraphics[
+		width=2.1\paperwidth,
+		height=1\paperheight
+		]{image/dp}
+	}%
+}
